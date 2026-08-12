@@ -1,3 +1,24 @@
+//* * * * *
+//* * * * *
+//* * * * *
+//* * * * *
+//* * * * *
+
+#include <stdio.h>
+int main(){
+	int n=5;
+	int sum=0;
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
 //*
 //* *
 //* * *
@@ -15,4 +36,29 @@ int main(){
 	}
 	return 0;
 }
+
+//    *
+//   **
+//  ***
+// ****
+//*****
+
+[Program finished]
+
+#include <stdio.h>
+int main(){
+	int n=5;
+	int sum=0;
+	for(int i=1;i<=n;i++){
+		for(int a=n-1;a>=i;a--){
+			printf(" ");
+		}
+		for(int j=1;j<=i;j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
 		
