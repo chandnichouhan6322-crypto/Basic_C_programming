@@ -20,7 +20,11 @@ C-Programs/
     ⚫secondly inserting pin and change pin
 │──08 star_pattern.c
     ⚫ 📐
-    
+ │──09 Area_of_shapes.c
+     ⚫circle,rectangle and square
+         By using user defined function
+         
+     
      
 ## 🛠 Language
 
