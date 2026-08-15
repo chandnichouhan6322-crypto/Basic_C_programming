@@ -19,8 +19,10 @@ C-Programs/
       check balance,deposit,withdraw,exit.
     ⚫secondly inserting pin and change pin
 │──08 star_pattern.c
-    ⚫ 📐
- │──09 Area_of_shapes.c
+    ⚫ 📐⬜
+│──09 Num_pattern.c
+     ⚫📐⬜
+│──10Area_of_shapes.c
      ⚫circle,rectangle and square
          By using user defined function
          
