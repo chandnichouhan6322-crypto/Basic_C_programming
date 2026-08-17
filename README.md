@@ -8,23 +8,37 @@ This repository contains basic C programs that I created while learning C progra
 
 C-Programs/
 │── README.md
-│── 01_Area_perimeter.c
-│── 02_Profit_or_Loss.c
-│── 03_leapyear_or not.c
-│── 04_Divisible_by_5.c
-│── 05_calculator.c
-│──06_rock_paper_scissors.c
-│──07_ATM.c #my first complex project
-    ⚫firstly I am adding feature of choice       where user choose what they want to do
-      check balance,deposit,withdraw,exit.
-    ⚫secondly inserting pin and change pin
-│──08 star_pattern.c
-    ⚫ 📐⬜
-│──09 Num_pattern.c
-     ⚫📐⬜
-│──10Area_of_shapes.c
-     ⚫circle,rectangle and square
-         By using user defined function
+│── 01 Area_perimeter.c
+│── 02 Profit_or_Loss.c
+│── 03 Leapyear_or_not.c
+│── 04 Divisible_by_5.c
+│── 05 Calculator.c
+│── 06 Rock_paper_scissors.c
+│── 07 ATM.c 
+ My First Complex c project
+   ⚫ Current features:
+    - Check balance
+    - Deposit money
+    - Withdraw money
+    - Exit
+
+   ⚫Upcoming features:
+    - PIN authentication
+    - Change PIN option
+│── 08 star_pattern.c
+    ⚫Triangle/varieties of triangle 
+    ⚫square/rectangle 
+│── 09 Num_pattern.c
+    ⚫Triangle/varieties of triangle 
+    ⚫square/rectangle 
+│── 10 Area_of_shapes.c
+    ⚫Calculates the area of:
+     - Circle
+     - Rectangle
+     - Square
+
+Uses user-defined functions.
+        
          
      
      
