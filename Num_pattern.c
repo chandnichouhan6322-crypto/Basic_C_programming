@@ -33,3 +33,26 @@ int main(){
 	}
 	return 0;
 }
+
+
+//      1
+//     21
+//    321
+//   4321
+
+#include<stdio.h>
+int main(){
+	int a=4;
+	
+	for(int i=1;i<=a;i++){
+		for (int j=a-1;j>=1;j--){
+			printf(" ");
+			
+		}
+		for(int o=i;o>=1;o--){
+			printf("%d",o);
+		}
+		printf("\n");
+	}
+	return 0;
+}
