@@ -56,3 +56,29 @@ int main(){
 	}
 	return 0;
 }
+   1
+  123
+ 12345
+1234567
+#include <stdio.h>
+
+int main() {
+    int m = 4;
+
+    for (int i = 1; i <= m; i++) {
+
+        // spaces
+        for (int j = 1; j <= m - i; j++) {
+            printf(" ");
+        }
+
+        // numbers
+        for (int a = 1; a <= 2 * i - 1; a++) {
+            printf("%d", a);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
