@@ -39,26 +39,28 @@ int main(){
 		else if(a==4){
 			printf("------------------------------------------------------\n");
 			
-			printf("1 Admission number\n 2 Student name\n 3 Class/section\n 4 Fee receipt number, agar payment verify karni ho\n 5 Payment method\n 6 Pending fee ki information\n");
+			printf("1 Admission Number\n 2 Student Name\n 3 Class/section\n 4 Fee Receipt number\n 5 Payment method\n 6 Pending fee information\n");
 		}
 		else if(a==5){
 			printf("------------------------------------------------------\n");
-			printf("1 Student name\n 2 Class/section\n 3 Student ID/admission number\n 4 Parent/guardian name\n 5 Meeting ka reason\n 6 Contact number\n");
+			printf("1 Student name\n 2 Class/section\n 3 Student ID/Admission Number\n 4 Parent/Guardian Name\n 5 Meeting Reason\n 6 Contact Number\n");
 		}
 		else if(a==6){
 			printf("------------------------------------------------------\n");
-			printf("1 Student name\n 2 Class/section\n 3 Subject/teacher ka naam\n 4 Student ID, agar school verification maange\n");
+			printf("1 Student name\n 2 Class/section\n 3 Subject/teacher ka naam\n 4 Student ID\n");
 		}
 		else if(a==7){
 			printf("------------------------------------------------------\n");
-			printf("1 Student name\n 2 Student ID/admission number\n 3 Class/section\n 4 Parent/guardian name\n 5 Contact number\n 6 Complaint/problem ka description\n 7 Related document/receipt, agar complaint kisi transaction ya specific incident se related\n");
+			printf("1 Student name\n 2 Student ID/admission number\n 3 Class/section\n 4 Parent/guardian name\n 5 Contact number\n 6 Complaint/problem ka description\n 7 Related document/receipt\n");
 		}
 		else if(a==8){
 			printf("------------------------------------------------------\n");
 			printf("exit");
 		}
 		else{
+			printf("---------------------------------------------------\n");
 			printf("something wrong");
+			printf("\n---------------------------------------------------");
 		}
 	}
 
