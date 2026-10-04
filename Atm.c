@@ -15,7 +15,7 @@ int main() {
     while (attempts < 4) {
 
         printf("\nEnter PIN: ");
-        scanf("%d", &enterpin);
+        scanf("%4d", &enterpin);
 
         if (enterpin == pin) {
             printf("\nPIN verified successfully!\n");
