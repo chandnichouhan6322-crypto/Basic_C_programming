@@ -10,6 +10,7 @@ int main() {
     float deposit;
     float withdraw;
     int choice;
+    char user;
 
     // PIN Authentication
     while (attempts < 4) {
@@ -39,6 +40,12 @@ int main() {
         printf("-------------------------\n");
         printf("Too many wrong attempts.\n");
         printf("Please try again after 5 minutes.\n");
+        scanf(" %c",&user);
+        if(user=='y'||user=='Y')  {
+        	printf("--------enter new pin---------");
+        	pin=newpin;
+        	attempts=0;
+        }
 
         return 0;   // ATM program yahin stop
     }
