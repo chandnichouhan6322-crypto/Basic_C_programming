@@ -11,6 +11,7 @@ int main() {
     float withdraw;
     int choice;
     char user;
+    int newpin;
 
     // PIN Authentication
     while (attempts < 4) {
@@ -43,6 +44,7 @@ int main() {
         scanf(" %c",&user);
         if(user=='y'||user=='Y')  {
         	printf("--------enter new pin---------");
+            scanf("%d",&newpin);
         	pin=newpin;
         	attempts=0;
         }
